@@ -20,6 +20,7 @@ export const navLinks = [
   { label: "Deneyim", href: "#Experience" },
   { label: "Projeler", href: "#Projects" },
   { label: "Yetenekler", href: "#Skills" },
+  { label: "Sertifikalar", href: "#Certificates" },
   { label: "İletişim", href: "#Contact" }
 ];
 
@@ -106,6 +107,12 @@ export const skills = [
   "API Entegrasyonu",
   "Güvenli Kodlama",
   "Sistem Entegrasyonu"
+];
+
+export const certificates = [
+  { title: "Türkiye Siber Vatan Programı 2026 Dönemi", issuer: "Siber Vatan", year: "2025", url: "https://drdogrulama.sanayi.gov.tr/tr/verify/26486802701678" },
+  { title: "Dijital Adli Bilişim", issuer: "BTK Akademi", year: "2025", url: "https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=qKrheZG6el" },
+  { title: "Siber Güvenliğe Giriş", issuer: "BTK Akademi", year: "2025", url: "https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=rKjhaDjVjj" }
 ];
 
 export const education = [
