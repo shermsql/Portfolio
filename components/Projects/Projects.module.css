@@ -1,0 +1,159 @@
+.section {
+  padding: 64px 0;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.head h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.tag {
+  font-family: "JetBrains Mono", monospace;
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 26px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary);
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.card p {
+  color: var(--text-muted);
+  font-size: 0.93rem;
+  flex: 1;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tagPill {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  background: var(--bg-soft);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  font-family: "JetBrains Mono", monospace;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.badgeLive {
+  background: rgba(47, 191, 113, 0.14);
+  color: var(--success);
+}
+
+.badgeWin {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--primary);
+  margin-top: 4px;
+}
+
+.link svg {
+  transition: 0.2s;
+}
+
+.link:hover svg {
+  transform: translate(2px, -2px);
+}
+
+.linkDisabled {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.linkRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.repoLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  transition: 0.2s;
+}
+
+.repoLink:hover {
+  color: var(--primary);
+}
