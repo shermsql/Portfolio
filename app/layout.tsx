@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+
 import { ThemeProvider } from "@/components/ThemeProvider/ThemeProvider";
+import { Analytics } from "@vercel/analytics/next"
 
 import "./globals.css";
 
@@ -34,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="bg-grid" />
         <div className="dot-grid" />
         <ThemeProvider>{children}</ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
