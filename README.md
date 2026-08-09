@@ -20,7 +20,7 @@ Open `http://localhost:3000` in your browser.
 
 #### 📄 Updating the Resume PDF
 
-Replace the PDF in `public/cv/` and update the `cvPath` / `cvFileName` fields in `data/content.ts` if needed. The "Download CV" button in both the navbar and hero section automatically points to this file.
+Replace the PDF in `public/Resume/` and update the `cvPath` / `cvFileName` fields in `data/content.ts` if needed. The "Download CV" button in both the navbar and hero section automatically points to this file.
 
 #### 🌗 Theme
 
