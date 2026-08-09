@@ -5,8 +5,8 @@ export const site = {
   location: "Bilecik, Türkiye",
   email: "merhaba@skelvric.com",
   phone: "+90 535 734 45 32",
-  cvPath: "/Resume/Batuhan-Kurkut.pdf",
-  cvFileName: "Batuhan-Kurkut.pdf"
+  cvPath: "/Resume/Batuhan Kurkut.pdf",
+  cvFileName: "Batuhan Kurkut.pdf"
 };
 
 export const socialLinks = [
