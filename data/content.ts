@@ -110,7 +110,7 @@ export const skills = [
 ];
 
 export const certificates = [
-  { title: "Türkiye Siber Vatan Programı 2026 Dönemi", issuer: "Siber Vatan", year: "2025", url: "https://drdogrulama.sanayi.gov.tr/tr/verify/26486802701678" },
+  { title: "Türkiye Siber Vatan Programı 2026 Dönemi", issuer: "Siber Vatan", year: "2026", url: "https://drdogrulama.sanayi.gov.tr/tr/verify/26486802701678" },
   { title: "Dijital Adli Bilişim", issuer: "BTK Akademi", year: "2025", url: "https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=qKrheZG6el" },
   { title: "Siber Güvenliğe Giriş", issuer: "BTK Akademi", year: "2025", url: "https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=rKjhaDjVjj" }
 ];
