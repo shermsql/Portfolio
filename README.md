@@ -16,7 +16,7 @@ Open `http://localhost:3000` in your browser.
 - `app/` — layout, global styles, and the main page.
 - `components/` — each section in its own folder (component + CSS Module): Navbar, Hero, About, Experience, Projects, Skills, EducationLanguages, Contact, Footer, ThemeToggle, ThemeProvider, RevealOnScroll.
 - `data/content.ts` — **single source of truth for all site content**: experience, projects, skills, education, languages, social links. Update this file to change any content.
-- `public/cv/` — downloadable resume PDF.
+- `public/Resume/` — downloadable resume PDF.
 
 #### 📄 Updating the Resume PDF
 
@@ -36,4 +36,4 @@ npm run build && npm run start
 
 #### 📜 License
 
-MIT — see [LICENSE](./LICENSE.txt). Note: the license covers the **code only**; personal content (name, resume, bio, contact info in `data/content.ts` and `public/cv/`) is not licensed for reuse.
+MIT — see [LICENSE](./LICENSE.txt). Note: the license covers the **code only**; personal content (name, resume, bio, contact info in `data/content.ts` and `public/Resume/`) is not licensed for reuse.
