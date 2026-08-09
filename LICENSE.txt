@@ -23,7 +23,7 @@ THE SOFTWARE.
 ---
 
 Note: This MIT license applies to the source code only. Personal content —
-including the name, resume/CV (public/cv/), biography, and contact details
+including the name, Resume/ (public/Resume/), biography, and contact details
 in data/content.ts — is not covered by this license and may not be reused,
 redistributed, or presented as belonging to anyone other than the original
 author.
