@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./Preview.png" alt="Portfolio Preview" width="800">
+</p>
+
 ### ✨ Portfolio
 
 A light/dark themed portfolio site built with **Next.js 14 (App Router)**.
