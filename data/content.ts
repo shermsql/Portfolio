@@ -71,32 +71,32 @@ export const projects = [
   {
     title: "Skelvric",
     description:
-      "Kendi yazılım markamın resmi web sitesi. Next.js App Router ve MongoDB ile uçtan uca tasarladım, geliştirdim ve yayına aldım — vitrin, hizmetler ve iletişim akışlarını tek çatı altında topluyor.",
-    tags: ["Next.js", "MongoDB", "Framer Motion"],
+      "Kendi yazılım ajansımın resmi web sitesi. Next.js App Router ve MongoDB ile uçtan uca tasarladım, geliştirdim ve yayına aldım — vitrin, hizmetler ve iletişim akışlarını tek çatı altında topluyor.",
+    tags: ["Next.js", "PostCSS", "Tailwind"],
     badge: { text: "Canlı", tone: "live" as const },
     icon: "code" as const,
     link: { label: "Görüntüle", url: "https://www.skelvric.com" },
     repoUrl: "https://github.com/Skelvric/Skelvric"
   },
   {
-    title: "SkelVault",
+    title: "SkelPass",
     description:
-      "AES-256-GCM şifreleme, oran sınırlama, CSRF koruması ve oturum/cihaz yönetimiyle güçlendirilmiş web tabanlı şifre yöneticisi. Güvenlik ve kullanılabilirliği aynı anda önceliklendirerek geliştirdim.",
-    tags: ["Next.js", "AES-256-GCM", "shadcn/ui"],
+      "AES-256-GCM şifreleme, oran sınırlama, CSRF koruması ve güçlendirilmiş web tabanlı şifre yöneticisi. Güvenlik ve kullanılabilirliği aynı anda önceliklendirerek geliştirdim.",
+    tags: ["Next.js", "AES-256-GCM", "JWT"],
     badge: { text: "Canlı", tone: "live" as const },
     icon: "vault" as const,
-    link: { label: "Görüntüle", url: "https://vault.skelvric.com" },
-    repoUrl: "https://github.com/Skelvric/SkelVault"
+    link: { label: "Görüntüle", url: "https://pass.skelvric.com" },
+    repoUrl: "https://github.com/Skelvric/SkelPass"
   },
   {
-    title: "SkelVault Desktop",
+    title: "SkelPass Desktop",
     description:
-      "SkelVault'un masaüstü versiyonu. Aynı güvenlik altyapısını yerel bir uygulama deneyimine taşıyor; şu an yalnızca Windows için derlenebiliyor, macOS ve Linux desteği yol haritasında.",
+      "SkelPass'ın masaüstü versiyonu. Aynı güvenlik altyapısını yerel bir uygulama deneyimine taşıyor; şu an yalnızca Windows için derlenebiliyor, macOS ve Linux desteği yol haritasında.",
     tags: ["Electron", "JavaScript" ],
     badge: { text: "Yalnızca Windows", tone: "win" as const },
     icon: "desktop" as const,
-    link: { label: "İndir", url: "https://github.com/Skelvric/SkelVault-Desktop/releases/download/v0.1.0/SkelVault.Setup.0.1.0.exe" },
-    repoUrl: "https://github.com/Skelvric/SkelVault-Desktop"
+    link: { label: "İndir", url: "https://github.com/Skelvric/SkelPass-Desktop/releases/download/v0.2.0/SkelPass.Setup.0.2.0.exe" },
+    repoUrl: "https://github.com/Skelvric/SkelPass-Desktop"
   }
 ];
 
