@@ -1,5 +1,5 @@
 import { site, socialLinks } from "@/data/content";
-import { socialIconMap, DownloadIcon } from "@/components/icons/Icons";
+import { socialIconMap, DownloadIcon } from "@/components/Icons/Icons";
 
 import styles from "./Hero.module.css";
 

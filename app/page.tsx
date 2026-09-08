@@ -12,6 +12,7 @@ import { Projects } from "@/components/Projects/Projects";
 import { Skills } from "@/components/Skills/Skills";
 import { Certificates } from "@/components/Certificates/Certificates";
 import { EducationLanguages } from "@/components/EducationAndLanguages/EducationAndLanguages";
+import { Sponsor } from "@/components/Sponsor/Sponsor";
 import { Contact } from "@/components/Contact/Contact";
 import { Footer } from "@/components/Footer/Footer";
 
@@ -37,6 +38,7 @@ export default function Home() {
         <Skills />
         <Certificates />
         <EducationLanguages />
+        <Sponsor />
         <Contact />
       </main>
       <Footer />

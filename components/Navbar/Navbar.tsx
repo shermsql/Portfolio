@@ -2,7 +2,7 @@
 
 import { navLinks, site } from "@/data/content";
 import { ThemeToggle } from "@/components/ThemeToggle/ThemeToggle";
-import { DownloadIcon } from "@/components/icons/Icons";
+import { DownloadIcon } from "@/components/Icons/Icons";
 
 import styles from "./Navbar.module.css";
 

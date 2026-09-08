@@ -1,7 +1,7 @@
 "use client";
 
 import { useTheme } from "@/components/ThemeProvider/ThemeProvider";
-import { SunIcon, MoonIcon } from "@/components/icons/Icons";
+import { SunIcon, MoonIcon } from "@/components/Icons/Icons";
 
 import styles from "./ThemeToggle.module.css";
 

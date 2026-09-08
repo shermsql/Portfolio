@@ -97,6 +97,16 @@ export const projects = [
     icon: "desktop" as const,
     link: { label: "İndir", url: "https://github.com/Skelvric/SkelPass-Desktop/releases/download/v0.2.0/SkelPass.Setup.0.2.0.exe" },
     repoUrl: "https://github.com/Skelvric/SkelPass-Desktop"
+  },
+  {
+    title: "Codeum",
+    description:
+      "Kısa ve odaklı kodlama görevleri aracılığıyla gerçek dünya geliştirici becerilerini uygulamaya yönelik açık kaynaklı bir platform.",
+    tags: ["Next.js", "React", "MongoDB"],
+    badge: { text: "Canlı", tone: "live" as const },
+    icon: "terminal" as const,
+    link: { label: "Görüntüle", url: "https://codeum.skelvric.com" },
+    repoUrl: "https://github.com/Skelvric/Codeum"
   }
 ];
 

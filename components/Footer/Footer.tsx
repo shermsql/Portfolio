@@ -1,5 +1,5 @@
 import { site, socialLinks, navLinks, projects } from "@/data/content";
-import { socialIconMap, ArrowUpIcon } from "@/components/icons/Icons";
+import { socialIconMap, ArrowUpIcon } from "@/components/Icons/Icons";
 
 import styles from "./Footer.module.css";
 
