@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import { CustomCursor } from "@/components/CustomCursor/CustomCursor";
+
 import { ThemeProvider } from "@/components/ThemeProvider/ThemeProvider";
 import { Analytics } from "@vercel/analytics/next"
 
@@ -35,7 +37,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <div className="bg-grid" />
         <div className="dot-grid" />
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <CustomCursor />
+          {children}
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>
