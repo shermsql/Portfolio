@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "@/components/RevealOnScroll/RevealOnScroll";
-import { GithubIcon, ArrowUpRightIcon } from "@/components/Icons/Icons";
+import { GithubIcon, ArrowUpRightIcon } from "@/components/Icons/Icon";
 
 import styles from "./Sponsor.module.css";
 

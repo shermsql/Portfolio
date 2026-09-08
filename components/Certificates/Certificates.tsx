@@ -1,6 +1,6 @@
 import { certificates } from "@/data/content";
 import { RevealOnScroll } from "@/components/RevealOnScroll/RevealOnScroll";
-import { ArrowUpRightIcon } from "@/components/Icons/Icons";
+import { ArrowUpRightIcon } from "@/components/Icons/Icon";
 
 import styles from "./Certificates.module.css";
 

@@ -1,5 +1,5 @@
 import { projects } from "@/data/content";
-import { projectIconMap, ArrowUpRightIcon, GithubIcon } from "@/components/Icons/Icons";
+import { projectIconMap, ArrowUpRightIcon, GithubIcon } from "@/components/Icons/Icon";
 import { RevealOnScroll } from "@/components/RevealOnScroll/RevealOnScroll";
 
 import styles from "./Projects.module.css";
